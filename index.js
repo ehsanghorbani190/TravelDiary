@@ -14,9 +14,15 @@ const data = [
     description:
       "Italy, country of south-central Europe, occupying a peninsula that juts deep into the Mediterranean Sea. Italy comprises some of the most varied and scenic landscapes on Earth and is often described as a country shaped like a boot. At its broad top stand the Alps, which are among the world's most rugged mountains.Italy has over 3,000 museums. The national sport of Italy is soccer (known as football outside of America). Italy's national dish is pasta. The Italian language evolved from the Latin of the Roman Empire.",
   },
+  {
+    title: "Paris",
+    description:
+      "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré. The City of Paris is the centre of the Île-de-France region, or Paris Region, with an official estimated population of 12,271,794 inhabitants on January 1, 2023, or about 19% of the population of France, making the region France's primate city.",
+  },
 ];
 const links = document.querySelector("nav");
 const entries = document.querySelector("section");
+
 data.forEach((entry) => {
   const h1 = document.createElement("h1");
   h1.textContent = entry.title;
