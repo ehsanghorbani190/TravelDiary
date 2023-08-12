@@ -7,6 +7,8 @@ const data = [{
 }, {
     title: 'Damghan',
     description: "Damghan is a city in, and the capital of, the Central District of Damghan County, Semnan province, Iran, and also serves as capital of the county.It is 342 km (213 mi) east of Tehran on the high-road to Mashad, at an elevation of 1,250 m (4,101 ft). Damghan is one of the oldest cities on the Iranian plateau, stretching back 7,000 years, and boasts many sites of historic interest.The oldest of these is Tappeh Hessar, lying to the southeast of the city, which holds the ruins of a castle dating from the Sasanian Empire.At the 2006 census, its population was 57,331 in 15,849 households. The following census in 2011 counted 58,770 people in 16,861 households. The latest census in 2016 showed a population of 59,106 people in 18,417 households."
+},{title: 'Paris',
+    description: "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré. The City of Paris is the centre of the Île-de-France region, or Paris Region, with an official estimated population of 12,271,794 inhabitants on January 1, 2023, or about 19% of the population of France, making the region France's primate city."
 }]
 const links = document.querySelector('nav');
 const entries = document.querySelector('section');
